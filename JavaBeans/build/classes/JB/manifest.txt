@@ -1,0 +1,7 @@
+Main-Class: JavaBeans
+Manifest-Version: 1.0
+Created-By: Deepak Bhatta Kaji
+Designation-Post: Asst. Professor - KMC
+Name: JavaBeans.class
+Java-Bean: True
+
