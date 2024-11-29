@@ -19,8 +19,8 @@ public class DatabaseConnectivity {
         try {
             // TODO code application logic here
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/kmc_college", "root", "bhatta");
-            System.out.println("kmc_college Database Connected");
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/mysql", "root", "bhattakaji");
+            System.out.println("mysql Database Connected");
         } catch (ClassNotFoundException ex) {
             System.out.println("ERROR: Class not Found!" + ex);
         } catch (SQLException ex) {
