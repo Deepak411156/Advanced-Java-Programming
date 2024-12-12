@@ -10,26 +10,21 @@ import javax.swing.*;
  *
  * @author deepakbhattakaji
  */
-public class CheckLoginStatus extends JFrame{
-    
-    public boolean getLoginDetails(String email, String password)
-    {
+public class CheckLoginStatus extends JFrame {
+
+    public boolean getLoginDetails(String email, String password) {
         boolean status = false;
-        
+
         String txtEmail = "admin";
-        String txtPassword = "admin";        
-        if(email.equals(txtEmail)&&password.equals(txtPassword))
-        {
+        String txtPassword = "admin";
+        if (email.equals(txtEmail) && password.equals(txtPassword)) {
             status = true;
-        }
-        
-        else
-        {
+        } else {
             status = false;
         }
-        
-        return  status;
-        
+
+        return status;
+
     }
-    
+
 }

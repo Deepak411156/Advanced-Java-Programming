@@ -11,22 +11,21 @@ import javax.swing.JLabel;
  *
  * @author deepakbhattakaji
  */
-public class AdminForm extends  JFrame{
-    
-    public AdminForm()
-    {
-         JLabel welcome = new JLabel();
-        
+public class AdminForm extends JFrame {
+
+    public AdminForm() {
+        JLabel welcome = new JLabel();
+
         welcome.setText("Hello Admin");
         add(welcome);
-       
-        setSize(500,500);
+
+        setSize(500, 500);
         setLocationRelativeTo(this);
         //setVisible(true);
     }
-    
+
     public static void main(String[] args) {
-       new AdminForm();
+        new AdminForm();
     }
-    
+
 }
