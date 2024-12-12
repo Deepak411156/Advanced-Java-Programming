@@ -18,6 +18,7 @@ public class AdminForm extends  JFrame{
          JLabel welcome = new JLabel();
         
         welcome.setText("Hello Admin");
+        add(welcome);
        
         setSize(500,500);
         setLocationRelativeTo(this);
