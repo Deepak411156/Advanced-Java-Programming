@@ -1,4 +1,5 @@
 
+import java.io.*;
 import java.io.Serializable;
 
 /**
@@ -32,11 +33,12 @@ public class JavaBeans implements Serializable {
 
     public static void main(String[] args) {
         JavaBeans jb = new JavaBeans();
-        
+
         jb.setUserName("Deepak Bhatta");
-        System.out.println("User Name : " +jb.getUserName());
-        
+        System.out.println("User Name : " + jb.getUserName());
+
         jb.setAge(30);
-        System.out.println("Age : " +jb.getAge());
-    }
+        System.out.println("Age : " + jb.getAge());
+
+        }
 }

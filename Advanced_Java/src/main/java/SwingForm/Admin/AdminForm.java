@@ -21,7 +21,8 @@ public class AdminForm extends JFrame {
 
         setSize(500, 500);
         setLocationRelativeTo(this);
-        //setVisible(true);
+        setExtendedState(JFrame.MAXIMIZED_BOTH); // For FullScreen
+        
     }
 
     public static void main(String[] args) {
