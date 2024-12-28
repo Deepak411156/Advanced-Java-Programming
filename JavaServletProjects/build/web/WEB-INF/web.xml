@@ -20,6 +20,10 @@
         <servlet-name>SessionServlet1</servlet-name>
         <servlet-class>SessionServlet1</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ExamCookie</servlet-name>
+        <servlet-class>ExamCookie</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>
         <url-pattern>/LoginServlet</url-pattern>
@@ -39,5 +43,9 @@
     <servlet-mapping>
         <servlet-name>SessionServlet1</servlet-name>
         <url-pattern>/SessionServlet1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ExamCookie</servlet-name>
+        <url-pattern>/ExamCookie</url-pattern>
     </servlet-mapping>
 </web-app>
